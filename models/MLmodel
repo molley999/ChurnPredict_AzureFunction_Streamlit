@@ -1,0 +1,20 @@
+artifact_path: model
+databricks_runtime: 14.3.x-cpu-ml-scala2.12
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.10.12
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.0.1+cpu
+mlflow_version: 2.9.2
+model_size_bytes: 9443
+model_uuid: 72679a92f1704d9c9bfd6bd4ca04e0f2
+run_id: 9f2867179ec5432fb682660df15b6565
+utc_time_created: '2024-07-25 15:29:12.646234'
