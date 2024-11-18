@@ -65,7 +65,7 @@ ChurnPredict_AzureFunction_Streamlit/
 │
 ├── notebooks/               # Jupyter notebooks containing all data processing phases
 │
-│── images/                  # Screeshots of each steps achieved
+│── demo/                  # Screeshots of each steps achieved
 │
 ├── scripts/                 # Python scripts for the pipeline steps
 │
